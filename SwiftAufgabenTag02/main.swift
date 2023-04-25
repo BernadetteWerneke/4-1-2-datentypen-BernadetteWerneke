@@ -33,6 +33,7 @@ print("")
 print("Aufgabe01:")
 //TODO: Funktionsaufruf von addInts() aus Aufgabe01:
 //hier die funktion aufrufen
+addInts(a:3,b:7)
 print("")
 
 print("Aufgabe02:")
@@ -40,13 +41,14 @@ print("Ints zum addieren eingeben:")
 // Funktionsaufruf von addFromReadLine() aus Aufgabe02:
 //TODO: Was fällt an diesem Funktionsaufruf auf? Was bedeuten die "!" nochmal?
 //TODO: Funktionsaufruf auskommentieren um Lösung aus Aufgabe 02 zu überprüfen
-//addIntsFromReadLine(x: Int(readLine()!)!, y: Int(readLine()!)!)
+addIntsFromReadLine(a: Int(readLine()!)!, b: Int(readLine()!)!)
 print("")
 
 
 //TODO: Funktionsaufruf aus Aufgabe03-Double:
 print("Aufgabe03:")
 //hier die funktion aufrufen
+multiplyDoubles()
 print("")
 
 print(steckbrief())
@@ -54,13 +56,16 @@ print(steckbrief())
 //TODO: Funktionsaufruf aus Aufgabe04-Char:
 print("Aufgabe04:")
 //hier die funktion aufrufen
+myNameAsChars()
 print("")
 
 print("Aufgabe05:")
 //hier die funktion aufrufen
+stringOperations()
 print("")
 
 print("Aufgabe06:")
 //hier die funktion aufrufen
+wetterDienst()
 
 

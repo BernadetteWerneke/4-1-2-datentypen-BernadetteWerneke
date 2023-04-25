@@ -30,7 +30,25 @@ import Foundation
 
 
 func wetterDienst(){
+    let sunny:Bool = true
+    let cloudy:Bool = false
+    let rainy:Bool = true
+    let windy:Bool = false
     
-   
-  
+    if (sunny && !cloudy && !rainy){
+        if(windy) {
+            print("goodWeather")
+        } else {
+            print("bestWeather")}
+        }
+    
+    else if(rainy){
+        print("badWeather")}
+    
+    else if(windy && !sunny){
+        print("coldWeather")
+        
+    }else {
+    print("regularWeather")
+    }
 }

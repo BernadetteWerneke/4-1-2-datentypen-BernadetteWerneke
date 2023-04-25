@@ -13,5 +13,11 @@ import Foundation
 
 
 func multiplyDoubles() {
+    let zahl1:Double = 20.5
+    let zahl2:Int = 10
+    let ergebnis = zahl1*Double(zahl2)
+    print("\(zahl1) * \(zahl2) = \(ergebnis)")
+    
     
 }
+

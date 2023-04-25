@@ -15,4 +15,7 @@ import Foundation
 
 func myNameAsChars(){
   // dein code hier
+    let nameInBuchstaben:[Character]=["B","e","r","n","a","d","e","t","t","e"]
+    let name = String(nameInBuchstaben)
+    print(name)
 }

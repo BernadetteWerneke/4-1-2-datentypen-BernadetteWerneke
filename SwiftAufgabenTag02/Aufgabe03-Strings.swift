@@ -14,11 +14,17 @@ import Foundation
 
 func steckbrief() {
     print("Bitte deinen Namen eingeben:")
-    
     // diese Syntax bedeutet: speichere in deinName den Inhalt aus readLine(). Wenn in readLine() nichts eingegeben wird, schreib stattdessen "Max Mustermann" in deinName.
-    let deinName: String = readLine() ?? "Max Mustermann"
+    //let deinName: String? = readLine()
     //TODO: mehr Eigenschaften für den Steckbrief, am Ende alles ausdrucken
-    
-    
-}
-
+    //print("Dein Alter?")
+    //let deinAge:String? = readLine()
+    //print("Dein Lieblingsessen?")
+    //let deinLieblingsessen:String? = readLine()
+    //print("Dein Lieblingssport?")
+    //let deinLieblingsSport:String? = readLine()
+    //print("Dein Lieblingsland?")
+    //let deinLieblingsLand:String? = readLine()
+    //print("Der Steckbrief:")
+    //print("\n \(deinName) \n \(deinAge) \n \(deinLieblingsessen) \n \(deinLieblingsSport) \n \(deinLieblingsLand)")
+    }
